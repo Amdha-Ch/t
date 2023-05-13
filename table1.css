@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(128, 165, 42);
+}
+table{
+    margin-top:60px;
+    height:200px;
+    width: 600px;
+    margin-left:90px;
+    text-align: center;
+}
+table,td,th{
+    border:solid 1px rgb(18, 16, 16);
+    padding:10px;
+    border-collapse:collapse;
+}
+td:nth-child(5n+1){
+    background-color:blue ;
+}
+td:nth-child(5n+2){
+    background-color: rgb(225, 67, 149);
+}
+td:nth-child(5n+3){
+    background-color:blue;
+}
+td:nth-child(5n+4){
+    background-color: rgb(225, 67, 149);
+}
+td:nth-child(5n+5){
+    background-color:blue;
+}
+
+
